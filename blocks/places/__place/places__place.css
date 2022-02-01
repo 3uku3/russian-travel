@@ -1,3 +1,27 @@
 .places__place {
   margin: 0 0 80px;
 }
+
+.places__place:last-of-type {
+  margin: 0 0 92px;
+}
+
+@media (max-width: 1023px) {
+  .places__place {
+    margin: 0 0 72px;
+  }
+
+  .places__place:last-of-type {
+    margin: 0 0 90px;
+  }
+}
+
+@media (max-width: 767px) {
+  .places__place {
+    margin: 0 0 50px;
+  }
+
+  .places__place:last-of-type {
+    margin: 0 0 66px;
+  }
+}

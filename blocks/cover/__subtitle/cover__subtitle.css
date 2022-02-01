@@ -3,24 +3,39 @@
   text-align: center;
   width: 360px;
   font-size: 18px;
-  line-height: 1.1;
+  line-height: 1.22;
   font-weight: normal;
   margin: 32px 0 0 0;
+  padding-bottom: 21.4%;
   color: #fff;
 }
+
+@media (max-width: 1279px) {
+  .cover__subtitle {
+    padding-bottom: 19%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .cover__subtitle {
+    padding-bottom: 15%;
+  }
+}
+
 
 @media (max-width: 767px) {
   .cover__subtitle {
     width: 328px;
     margin: 16px 0 0 0;
     font-size: 16px;
+    padding-bottom: 10.5%;
   }
 }
 
 @media (max-width: 424px) {
   .cover__subtitle {
     width: 288px;
-    margin: 16px 0 0 0;
     font-size: 14px;
+    line-height: 1.14;
   }
 }
