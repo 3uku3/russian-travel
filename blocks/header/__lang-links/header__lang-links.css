@@ -3,4 +3,11 @@
   align-self: flex-end;
   list-style: none;
   margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 767px) {
+  .header__lang-links {
+    margin: 0 0 2px;
+  }
 }
